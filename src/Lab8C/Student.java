@@ -21,6 +21,6 @@ public abstract class Student implements Abiturient{
 
 
     public static void studentList() {
-        System.out.println("Абитуриенты сдали цт и получили свои оценки!");
     }
+
 }

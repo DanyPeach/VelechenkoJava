@@ -50,8 +50,4 @@ public class StudentEvening extends Student{
                 "\nСписок зачисленных студентов заочников - " + arrZaoch);
     }
 
-    @Override
-    public void studentLost() {
-
-    }
 }

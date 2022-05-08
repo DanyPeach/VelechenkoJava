@@ -77,7 +77,7 @@ public class Abonent implements Methods{
     }
 
     @Override
-    public void editAccaunt() {
+    public void editAccaunt(){
         print.print("Добро пожаловать в панель редактирование профиля! \n1) Редактировать Имя \n2) Редактировать" +
                 " Фамилию \n3) Редактировать Возраст");
         while(true){
