@@ -2,12 +2,13 @@ package Lab9B;
 
 public class Main {
     public static void main(String[] args) {
-        String text = new String("лол. кекич кекю. р");
+        StringBuilder str = new StringBuilder("Жили у бабуси, два веселых Гуся! Один серый. А про второго все забыли.");
+        System.out.println("Строка до обработки:");
+        System.out.println(str);
+        System.out.println();
 
-        for(String i : text.split("")){
-            System.out.print(i);
-        }
+        Method Obrabotca = new Method(str);
+        Obrabotca.Processing();
 
     }
 }
-
