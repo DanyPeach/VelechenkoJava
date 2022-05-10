@@ -1,6 +1,10 @@
 package Lab8B;
 
 public interface Methods {
+    static void closeSch(Abonent abonent){
+
+    }
+
     public void makeContract();
 
     static void openSch(Abonent abonent) {
@@ -13,5 +17,5 @@ public interface Methods {
     public void changePlan();
     public void paiments();
     public void putMoney();
-    public void closeSch();
+
 }

@@ -21,7 +21,8 @@ public class Main {
                         "\n5) Проверить баланс" +
                         "\n6) Сменить тарифный план" +
                         "\n7) Платежи абонента" +
-                        "\n8) Выход из приложения");
+                        "\n8) Выход из приложения"+
+                        "\n9) Удалить счет");
                 System.out.print("Выберите пункт: ");
                 int choice = scanner.nextInt();
                 switch (choice) {
@@ -59,6 +60,10 @@ public class Main {
 
                     case 8: {
                         break;
+                    }
+
+                    case 9 : {
+                        Abonent.closeSch(abonent1);
                     }
 
                 }

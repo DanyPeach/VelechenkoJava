@@ -172,9 +172,23 @@ public class Abonent implements Methods{
         }
     }
 
-    @Override
-    public void closeSch() {
-
+    public static void closeSch(Abonent abonent) {
+        Print print = new Print();
+        Scanner scanner1 = new Scanner(System.in);
+        print.print("Вы уверены, что хотите закрыть счет? ");
+        String yes = "да";
+        String no = "нет";
+        String answer = scanner1.next();
+        if(answer.equals(yes)){
+           abonent.setNumber(0);
+           abonent.setMoney(0);
+           abonent.setMin(0);
+           abonent.setAge(0);
+           abonent.setFirstName(null);
+           abonent.setLastName(null);
+        }else{
+            print.print("Возращение в меню");
+        }
     }
 
 
