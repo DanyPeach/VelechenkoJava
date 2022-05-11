@@ -2,7 +2,7 @@ package Lab9A;
 
 public class Main {
     public static void main(String[] args) {
-        String testString = "Анктедотик".toLowerCase();
+        String testString = "Всем Привет".toLowerCase();
         String codeString = "";
         String formattedString = "";
         for(char ch : testString.toCharArray()) {
@@ -11,7 +11,5 @@ public class Main {
         }
         System.out.println(formattedString);
         System.out.println(codeString);
-
-
     }
 }

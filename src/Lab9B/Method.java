@@ -29,8 +29,8 @@ public class Method {
                     in[i][0]= words.length-1;
                 else
                     in[i][0]= words.length;
-                in[i][1]= i;
-                i++;
+                    in[i][1]= i;
+                    i++;
             }
             int[] amountOfWords;
             for(int z=in.length-1;z>0;z--){
@@ -52,13 +52,11 @@ public class Method {
 
     }
 
-    public StringBuilder getWorktype()
-    {
+    public StringBuilder getWorktype() {
         return this.out;
     }
 
-    public void setWorktype(StringBuilder str)
-    {
+    public void setWorktype(StringBuilder str) {
         this.verib = str;
     }
 }
